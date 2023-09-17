@@ -24,10 +24,6 @@ Note: if you use sbatch files from [LAMMPSatOU](https://github.com/ANSHURAJ11/LA
 	#SBATCH --time=200:00:00
 	#SBATCH --ntasks=32
 
-Also, make sure that you are using your own version of LAMMPS in the sbatch file.
-
-Please, each time you run a new type of simulation, create a new directory.
-
 ### Al<sub>0.3</sub>CoCrFeNi
 
 It has an FCC lattice, according to [this paper](https://doi.org/10.1016/j.actamat.2022.118600).
@@ -44,6 +40,8 @@ Two potentials will be used and their results will be compared: an [EAM potentia
 
 It has an FCC lattice, according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003).
 
+Use the M3GNet potential.
+
 #### Lattice parameters at 0 K
 
 #### Elastic constants at 0 K
@@ -52,7 +50,7 @@ It has an FCC lattice, according to [this paper](https://doi.org/10.1016/j.actam
 
 ## Ceramics
 
-Four ceramics will be considered. I will send you Sooraj's data for their structures.
+Four ceramics will be considered. Use the M3GNet potential. I will send you Sooraj's data for their structures.
 
 ### BaCe<sub>0.5</sub>Zr<sub>0.5</sub>O<sub>3</sub>
 
