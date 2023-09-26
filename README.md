@@ -54,7 +54,7 @@ Four ceramics will be considered. Use the M3GNet potential. I will send you Soor
 
 ### BaCe<sub>0.5</sub>Zr<sub>0.5</sub>O<sub>3</sub>
 
-It is the simplification of BaCe<sub>0.4</sub>Zr<sub>0.4</sub>Y<sub>0.1</sub>Yb<sub>0.1</sub>O<sub>$3-\delta$</sub>, which is an electrolyte in one type of fuel cell.
+It is the simplification of BaCe<sub>0.4</sub>Zr<sub>0.4</sub>Y<sub>0.1</sub>Yb<sub>0.1</sub>O<sub>$3-\delta$</sub>, which is a proton conducting electrolyte in one type of protonic ceramics fuel cell (PCFC).
 
 Build the random structure and the CSRO structure annealed at 823 K.
 
@@ -64,7 +64,7 @@ Calculate the GSFE and Peierls stress of both random and CSRO structures at 0 K.
 
 ### BaCo<sub>0.5</sub>Fe<sub>0.5</sub>O<sub>3</sub> 
 
-It is the simplification of BaCo<sub>0.4</sub>Fe<sub>0.4</sub>Zr<sub>0.1</sub>Y<sub>0.1</sub>O<sub>$3-\delta$</sub>, which is a positive electrode (i.e., cathode) in one type of fuel cell.
+It is the simplification of BaCo<sub>0.4</sub>Fe<sub>0.4</sub>Zr<sub>0.1</sub>Y<sub>0.1</sub>O<sub>$3-\delta$</sub>, which is a positive electrode (i.e., cathode) in one type of PCFC.
 
 Build the random structure and the CSRO structure annealed at 823 K.
 
@@ -72,7 +72,7 @@ Calculate the lattice parameters and elastic constants of both random and CSRO s
 
 ### La<sub>0.8</sub>Sr<sub>0.2</sub>Ga<sub>0.8</sub>Mg<sub>0.2</sub>O<sub>2.8</sub>
 
-It is an electrolyte in one type of fuel cell.
+It is an oxygen-ion conducting electrolyte in one type of solid oxygen fuel cell (SOFC).
 
 Build the random structure and the CSRO structure annealed at 1073 K.
 
@@ -82,7 +82,7 @@ Calculate the GSFE and Peierls stress of both random and CSRO structures at 0 K.
 
 ### La<sub>0.6</sub>Sr<sub>0.4</sub>CoO<sub>3</sub> 
 
-It is the simplification of La<sub>0.6</sub>Sr<sub>0.4</sub>CoO<sub>$3-\delta$</sub>, which is a cathode in one type of fuel cell.
+It is the simplification of La<sub>0.6</sub>Sr<sub>0.4</sub>CoO<sub>$3-\delta$</sub>, which is a cathode in one type of SOFC.
 
 Build the random structure and the CSRO structure annealed at 1073 K.
 
