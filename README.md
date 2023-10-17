@@ -2,7 +2,7 @@
 
 ## Foreword
 
-The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants), generalized stacking fault energies (GSFE), and Peierls stresses of several non-equal molar multi-principal element materials (MPEMs) including alloys and ceramics. The effects of chemical short-range order (CSRO) and temperature will be considered.
+The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants), generalized stacking fault energies (GSFE), and local slip resistances (LSR) in several non-equal molar multi-principal element materials (MPEMs) including alloys and ceramics. The effects of chemical short-range order (CSRO) and temperature will be considered.
 
 ## LAMMPS
 
@@ -34,7 +34,7 @@ Build the random structure and two CSRO structures annealed at 300 K and 973 K, 
 
 Calculate the lattice parameters and elastic constants of both random and 973KMDMC structures at 0 K and 973 K.
 
-Calculate the GSFE and Peierls stress of both random and 973KMDMC structures at 0 K.
+Calculate the GSFE and LSR in both random and 973KMDMC structures at 0 K.
 
 ### Co<sub>2</sub>Ni<sub>2</sub>Ru
 
@@ -44,7 +44,7 @@ Build the random structure and the CSRO structure annealed at 300 K.
 
 Calculate the lattice parameters and elastic constants of both random and CSRO structures at 0 K and 300 K.
 
-Calculate the GSFE and Peierls stress of both random and CSRO structures at 0 K.
+Calculate the GSFE and LSR in both random and CSRO structures at 0 K.
 
 Note: DFT calculations show that, _a_<sub>0</sub> = 3.58 nm, effective _C_<sub>11</sub> = 401.078 GPa, effective _C_<sub>12</sub> = 168.944 GPa, effective _C_<sub>44</sub> = 148.554 GPa, and mean ISFE = -43.11 mJ/m<sup>2</sup>.
 
@@ -60,7 +60,7 @@ Build the random structure and the CSRO structure annealed at 823 K.
 
 Calculate the lattice parameters and elastic constants of both random and CSRO structures at 0 K and 823 K.
 
-Calculate the GSFE and Peierls stress of both random and CSRO structures at 0 K.
+Calculate the GSFE and LSR in both random and CSRO structures at 0 K.
 
 ### BaCo<sub>0.5</sub>Fe<sub>0.5</sub>O<sub>3</sub> 
 
@@ -78,7 +78,7 @@ Build the random structure and the CSRO structure annealed at 1073 K.
 
 Calculate the lattice parameters and elastic constants of both random and CSRO structures at 0 K and 1073 K.
 
-Calculate the GSFE and Peierls stress of both random and CSRO structures at 0 K.
+Calculate the GSFE and LSR in both random and CSRO structures at 0 K.
 
 ### La<sub>0.6</sub>Sr<sub>0.4</sub>CoO<sub>3</sub> 
 
