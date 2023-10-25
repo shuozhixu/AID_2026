@@ -26,6 +26,8 @@ Note: if you use sbatch files from [LAMMPSatOU](https://github.com/ANSHURAJ11/LA
 	
 ## Alloys
 
+One scientific question: Is the CSRO the same, or similar, in alloys containing the same elements but different concentrations?
+
 ### CoNiRu
 
 Build the random structure in an FCC lattice. Calculate the lattice parameter, elastic constants, and GSFE at 0 K. Compare results with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62). The purpose is to validate the interatomic potential. Results of this equal-molar MPEA can be put in the Appendix of the paper.
