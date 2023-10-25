@@ -2,7 +2,7 @@
 
 ## Foreword
 
-The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants), generalized stacking fault energies (GSFE), and local slip resistances (LSR) in several non-equal molar multi-principal element materials (MPEMs) including alloys and ceramics. The effects of chemical short-range order (CSRO) and temperature will be considered.
+The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants), generalized stacking fault energies (GSFE), and local slip resistances (LSR) in several non-equal molar multi-principal element materials (MPEMs) including one alloy and four ceramics. The effects of chemical short-range order (CSRO) and temperature will be considered.
 
 ## LAMMPS
 
@@ -30,11 +30,9 @@ Note: if you use sbatch files from [LAMMPSatOU](https://github.com/ANSHURAJ11/LA
 
 It has an FCC lattice, according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003). Use the M3GNet potential.
 
-Build the random structure and the CSRO structure annealed at 300 K.
+Build the random structure and the CSRO structure annealed at 300 K. Calculate the lattice parameters and elastic constants of both random and CSRO structures at 0 K and 300 K, following [a previous GitHub repository](https://github.com/shuozhixu/Modelling_2024).
 
-Calculate the lattice parameters and elastic constants of both random and CSRO structures at 0 K and 300 K.
-
-Calculate the GSFE and LSR in both random and CSRO structures at 0 K.
+Calculate the [GSFE](https://github.com/shuozhixu/FLAM2020-GSFE) and [LSR](https://github.com/shuozhixu/FLAM2020-LSR) in both random and CSRO structures at 0 K, following [this paprer](http://dx.doi.org/10.1016/j.ijplas.2021.103157).
 
 Note: DFT calculations show that, _a_<sub>0</sub> = 3.58 nm, effective _C_<sub>11</sub> = 401.078 GPa, effective _C_<sub>12</sub> = 168.944 GPa, effective _C_<sub>44</sub> = 148.554 GPa, and mean ISFE = -43.11 mJ/m<sup>2</sup>.
 
