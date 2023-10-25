@@ -24,17 +24,7 @@ Note: if you use sbatch files from [LAMMPSatOU](https://github.com/ANSHURAJ11/LA
 	#SBATCH --time=200:00:00
 	#SBATCH --ntasks=32
 	
-## Alloys
-
-### Al<sub>0.3</sub>CoCrFeNi
-
-It has an FCC lattice, according to [this paper](https://doi.org/10.1016/j.actamat.2022.118600). Use the [EAM potential](https://www.ctcms.nist.gov/potentials/entry/2020--Farkas-D-Caro-A--Fe-Ni-Cr-Co-Al/2020--Farkas-D--Fe-Ni-Cr-Co-Al--LAMMPS--ipr1.html). Thus, it does not requrie the M3GNet package.
-
-Build the random structure and two CSRO structures annealed at 300 K and 973 K, respectively.
-
-Calculate the lattice parameters and elastic constants of both random and 973KMDMC structures at 0 K and 973 K.
-
-Calculate the GSFE and LSR in both random and 973KMDMC structures at 0 K.
+## Alloy
 
 ### Co<sub>2</sub>Ni<sub>2</sub>Ru
 
