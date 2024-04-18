@@ -17,7 +17,7 @@ To finish this project, at least four packages are needed. The first three come 
 
 The last package does not come with the official LAMMPS source code, and so it is not straightforward to install it:
 
-- [M3GNet package](https://www.linkedin.com/posts/ongsp_github-advancesoftcorplammps-compiled-activity-7008842815757586432-BaWR). This is to help use the M3GNet potential. [Here](https://www.nature.com/articles/s43588-022-00349-3) is the paper for M3GNet; it should be cited if one uses this package. This potential will be used in all materials in this project.
+- [M3GNet package](https://www.linkedin.com/posts/ongsp_github-advancesoftcorplammps-compiled-activity-7008842815757586432-BaWR). This is to help use the M3GNet potential. [Here](https://www.nature.com/articles/s43588-022-00349-3) is the paper for M3GNet and [here](https://doi.org/10.1038/s41524-024-01227-4) is an improved version; it should be cited if one uses this package. This potential will be used in all materials in this project.
 
 Note: if you use sbatch files from [LAMMPSatOU](https://github.com/ANSHURAJ11/LAMMPSatOU), you may need to change the walltime (default: 12 hours) and/or number of cores (default: 16). For this project, I recommend
 
