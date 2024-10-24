@@ -2,7 +2,7 @@
 
 ## Foreword
 
-The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants), generalized stacking fault energies (GSFE), and local slip resistances (LSR) in several non-equal molar multi-principal element materials (MPEMs) including two alloys and four ceramics. One equal-molar MPEA will also be considered, but mainly as a validation of the interatomic potential. The effects of chemical short-range order (CSRO) and temperature will be considered.
+The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants), generalized stacking fault energies (GSFE), and local slip resistances (LSR) in several non-equal molar multi-principal element materials (MPEMs) including three alloys and four ceramics. One equal-molar MPEA will also be considered, but mainly as a validation of the interatomic potential. The effects of chemical short-range order (CSRO) and temperature will be considered.
 
 ## LAMMPS
 
