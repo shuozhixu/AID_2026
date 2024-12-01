@@ -34,11 +34,11 @@ LSR of an edge dislocation or of a screw dislocation in an alloy can be calculat
 
 Both random and CSRO structures are considered. In addition, 20 LSR are calculated for each dislocation type.
 
-## Alloys
+## Materials
 
 ### CoNiRu
 
-Build the FCC structure. Compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
+It has an FCC structure. Compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
 
 ### Co<sub>2</sub>Ni<sub>2</sub>Ru
 
@@ -51,3 +51,7 @@ Unpublished DFT calculations show that, for random Co<sub>2</sub>Ni<sub>2</sub>R
 It has an HCP lattice, according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003).
 
 No DFT data exist for comparison.
+
+### Ni
+
+It has an FCC structure. Compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1063/1.5115282).
