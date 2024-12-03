@@ -40,7 +40,7 @@ LSR of an edge dislocation or of a screw dislocation in an alloy can be calculat
 
 ### CoNiRu
 
-It has an FCC structure. Compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
+It has an FCC lattice. Compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
 
 ### Co<sub>2</sub>Ni<sub>2</sub>Ru
 
@@ -56,4 +56,4 @@ No DFT data exist for comparison.
 
 ### Ni
 
-It has an FCC structure. Compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1063/1.5115282).
+It has an FCC lattice. Compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1063/1.5115282).
