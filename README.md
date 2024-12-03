@@ -10,7 +10,7 @@ The effect of chemical short-range order (CSRO) will be considered. One scientif
 
 Following [another project](https://github.com/shuozhixu/Modelling_2024), we can build LAMMPS with MANYBODY, EXTRA-COMPUTE, and MC packages and submit jobs on [OSCER](http://www.ou.edu/oscer.html).
 
-Six universal machine learning-based interatomic potentials will be applied: MACE, CHGNet, DeePMD, SevenNet, M3GNet, MEGNet. More information can be found on [Matbench Discovery](https://matbench-discovery.materialsproject.org) [Materials Graph Library](https://matbench-discovery.materialsproject.org), and [DeePMD-kit](https://github.com/deepmodeling/deepmd-kit).
+Six universal machine learning-based interatomic potentials will be applied: MACE, CHGNet, DeePMD, SevenNet, M3GNet, MEGNet. More information can be found on [Matbench Discovery](https://matbench-discovery.materialsproject.org), [Materials Graph Library](https://github.com/materialsvirtuallab/matgl), and [DeePMD-kit](https://github.com/deepmodeling/deepmd-kit).
 
 ## Calculations
 
@@ -22,7 +22,7 @@ Both random and CSRO structures are considered in all calculations in this proje
 
 ### Basic structural parameters
 
-Lattice parameter and elastic constants of an alloy at 0 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024). 
+Lattice parameter and elastic constants of an alloy at 0 K and 300 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024). 
 
 ### GSFE
 
