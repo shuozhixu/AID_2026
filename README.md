@@ -18,21 +18,23 @@ Six universal machine learning-based interatomic potentials will be applied: MAC
 
 For an alloy, the random structure can be generated using [atomsk](https://atomsk.univ-lille.fr), while the CSRO structure can be generated following [a previous project](https://github.com/shuozhixu/CMS-EAM_2025). Here, all CSRO structures are annealed at 300 K.
 
+Both random and CSRO structures are considered in all calculations in this project.
+
 ### Basic structural parameters
 
-Lattice parameter and elastic constants of an alloy at 0 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024). Both random and CSRO structures are considered.
+Lattice parameter and elastic constants of an alloy at 0 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024). 
 
 ### GSFE
 
 The GSFE curve on the {111} plane in an FCC crystal or on the basal plane in an HCP crystal can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024).
 
-Both random and CSRO structures are considered. In addition, 20 slip planes are considered in each structure.
+20 slip planes are considered in each structure.
 
 ### LSR
 
 LSR of an edge dislocation or of a screw dislocation in an alloy can be calculated following [a previous project](https://github.com/shuozhixu/Metals_2025).
 
-In addition, 20 LSR are calculated for each dislocation type.
+20 LSR are calculated for each dislocation type in each structure.
 
 ## Materials
 
