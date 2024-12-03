@@ -22,17 +22,17 @@ Both random and CSRO structures are considered in all calculations in this proje
 
 ### Basic structural parameters
 
-Lattice parameter and elastic constants of an alloy at 0 K and 300 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024). 
+Lattice parameter and elastic constants at 0 K and 300 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024). 
 
 ### GSFE
 
-The GSFE curve on the {111} plane in an FCC crystal or on the basal plane in an HCP crystal can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024).
+The GSFE curve on the {111} plane in an FCC lattice or on the basal plane in an HCP lattce at 0 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024).
 
 20 slip planes are considered in each structure.
 
 ### LSR
 
-LSR of an edge dislocation or of a screw dislocation in an alloy can be calculated following [a previous project](https://github.com/shuozhixu/Metals_2025).
+LSR of an edge dislocation or of a screw dislocation at 0 K can be calculated following [a previous project](https://github.com/shuozhixu/Metals_2025).
 
 20 LSR are calculated for each dislocation type in each structure.
 
