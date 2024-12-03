@@ -14,9 +14,9 @@ Six universal machine learning-based interatomic potentials will be applied: MAC
 
 ## Calculations
 
-### CSRO
+### Random and CSRO structures
 
-The CSRO structure of an alloy can be generated following [a previous project](https://github.com/shuozhixu/CMS-EAM_2025). Here, all CSRO structures are annealed at 300 K.
+For an alloy, the random structure can be generated using [atomsk](https://atomsk.univ-lille.fr), while the CSRO structure can be generated following [a previous project](https://github.com/shuozhixu/CMS-EAM_2025). Here, all CSRO structures are annealed at 300 K.
 
 ### Basic structural parameters
 
@@ -32,7 +32,7 @@ Both random and CSRO structures are considered. In addition, 20 slip planes are 
 
 LSR of an edge dislocation or of a screw dislocation in an alloy can be calculated following [a previous project](https://github.com/shuozhixu/Metals_2025).
 
-Both random and CSRO structures are considered. In addition, 20 LSR are calculated for each dislocation type.
+In addition, 20 LSR are calculated for each dislocation type.
 
 ## Materials
 
