@@ -46,7 +46,7 @@ It has an FCC lattice. Compare results of basic structural parameters and GSFE w
 
 It has an FCC lattice, according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003).
 
-Unpublished DFT calculations show that, for random Co<sub>2</sub>Ni<sub>2</sub>Ru, _a_<sub>0</sub> = 3.58 nm, effective _C_<sub>11</sub> = 401.078 GPa, effective _C_<sub>12</sub> = 168.944 GPa, effective _C_<sub>44</sub> = 148.554 GPa, and mean ISFE = -43.11 mJ/m<sup>2</sup>.
+Unpublished DFT calculations show that, for random Co<sub>2</sub>Ni<sub>2</sub>Ru, _a_<sub>0</sub> = 3.58 &#8491;, effective _C_<sub>11</sub> = 401.078 GPa, effective _C_<sub>12</sub> = 168.944 GPa, effective _C_<sub>44</sub> = 148.554 GPa, and mean ISFE = -43.11 mJ/m<sup>2</sup>.
 
 ### CoNiRu<sub>2</sub>
 
