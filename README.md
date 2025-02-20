@@ -2,7 +2,7 @@
 
 ## Foreword
 
-The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants), generalized stacking fault energies (GSFE), and local slip resistances (LSR) in three alloy systems that consist of equal or non-equal molar Co, Ni, and Ru. The alloys have either a face-centered cubic (FCC) or a hexagonal close-packed (HCP) lattice.
+The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants), generalized stacking fault energies (GSFE), and local slip resistances (LSR) in three alloy systems that consist of equal or non-equal molar Co, Ni, and Ru. The alloys have either a single face-centered cubic (FCC) phase, a single hexagonal close-packed (HCP) phase, or an FCC/HCP biphase.
 
 The effect of chemical short-range order (CSRO) will be considered. One scientific question: Is the CSRO the same, or similar, in alloys containing the same elements but different concentrations?
 
@@ -40,11 +40,11 @@ LSR of an edge dislocation or of a screw dislocation at 0 K can be calculated fo
 
 ### CoNiRu
 
-It has an FCC lattice. Compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
+It is a bi-phase material according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003). One phase has an FCC lattice while another an HCP lattice. For the FCC phase, we can compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
 
 ### Co<sub>2</sub>Ni<sub>2</sub>Ru
 
-It has an FCC lattice, according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003).
+It has an FCC lattice, according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003), where some experimental data exist.
 
 Unpublished DFT calculations show that, for random Co<sub>2</sub>Ni<sub>2</sub>Ru, _a_<sub>0</sub> = 3.58 &#8491;, effective _C_<sub>11</sub> = 401.078 GPa, effective _C_<sub>12</sub> = 168.944 GPa, effective _C_<sub>44</sub> = 148.554 GPa, and mean ISFE = -43.11 mJ/m<sup>2</sup>.
 
@@ -52,7 +52,7 @@ Unpublished DFT calculations show that, for random Co<sub>2</sub>Ni<sub>2</sub>R
 
 It has an HCP lattice, according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003).
 
-No DFT data exist for comparison.
+No DFT or experimental data exist for comparison, to our best knowledge.
 
 ### Ni
 
