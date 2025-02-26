@@ -10,7 +10,7 @@ The effect of chemical short-range order (CSRO) will be considered. One scientif
 
 Following [another project](https://github.com/shuozhixu/Modelling_2024), we can build LAMMPS with MANYBODY, EXTRA-COMPUTE, and MC packages and submit jobs on [OSCER](http://www.ou.edu/oscer.html).
 
-Six universal machine learning-based interatomic potentials will be applied: MACE, CHGNet, DeePMD, SevenNet, M3GNet, Orb. More information can be found on [Matbench Discovery](https://matbench-discovery.materialsproject.org), [Materials Graph Library](https://github.com/materialsvirtuallab/matgl), and [DeePMD-kit](https://github.com/deepmodeling/deepmd-kit).
+Four universal machine learning-based interatomic potentials will be applied: MACE, DeePMD, SevenNet, Orb. More information can be found on [Matbench Discovery](https://matbench-discovery.materialsproject.org), [Materials Graph Library](https://github.com/materialsvirtuallab/matgl), and [DeePMD-kit](https://github.com/deepmodeling/deepmd-kit).
 
 ## Calculations
 
@@ -26,7 +26,7 @@ Lattice parameter and elastic constants at 0 K and 300 K can be calculated follo
 
 ### GSFE
 
-The GSFE curve on the {111} plane in an FCC lattice or on the basal plane in an HCP lattce at 0 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024).
+The GSFE curve on the {111} plane in an FCC lattice or on the basal plane in an HCP lattice at 0 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024).
 
 20 slip planes are considered in each structure.
 
