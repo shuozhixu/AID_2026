@@ -2,23 +2,17 @@
 
 ## Foreword
 
-The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants), generalized stacking fault energies (GSFE), and local slip resistances (LSR) in three alloy systems that consist of equal or non-equal molar Co, Ni, and Ru. The alloys have either a single face-centered cubic (FCC) phase, a single hexagonal close-packed (HCP) phase, or an FCC/HCP biphase.
-
-The effect of chemical short-range order (CSRO) will be considered. One scientific question: Is the CSRO the same, or similar, in alloys containing the same elements but different concentrations?
+The purpose of this project is to calculate the basic structural parameters (including lattice parameter and elastic constants) and generalized stacking fault energies (GSFE) in three alloy systems that consist of equal or non-equal molar Co, Ni, and Ru. The alloys have either a single face-centered cubic (FCC) phase, a single hexagonal close-packed (HCP) phase, or an FCC/HCP biphase.
 
 ## LAMMPS
 
 Following [another project](https://github.com/shuozhixu/Modelling_2024), we can build LAMMPS with MANYBODY, EXTRA-COMPUTE, and MC packages and submit jobs on [OSCER](http://www.ou.edu/oscer.html).
 
-Four universal machine learning-based interatomic potentials will be applied: MACE, DeePMD, SevenNet, Orb. More information can be found on [Matbench Discovery](https://matbench-discovery.materialsproject.org), [Materials Graph Library](https://github.com/materialsvirtuallab/matgl), and [DeePMD-kit](https://github.com/deepmodeling/deepmd-kit).
+Four universal machine learning-based interatomic potentials will be applied: SevenNet, Orb, MACE, and DeePMD. More information can be found on [Matbench Discovery](https://matbench-discovery.materialsproject.org), [Materials Graph Library](https://github.com/materialsvirtuallab/matgl), and [DeePMD-kit](https://github.com/deepmodeling/deepmd-kit).
 
 ## Calculations
 
-### Random and CSRO structures
-
-For an alloy, the random structure can be generated using [atomsk](https://atomsk.univ-lille.fr), while the CSRO structure can be generated following [a previous project](https://github.com/shuozhixu/CMS-EAM_2025). Here, all CSRO structures are annealed at 300 K.
-
-Both random and CSRO structures are considered in all calculations in this project.
+Only random structures are considered in this project and can be generated using [atomsk](https://atomsk.univ-lille.fr).
 
 ### Basic structural parameters
 
@@ -28,19 +22,13 @@ Lattice parameter and elastic constants at 0 K and 300 K can be calculated follo
 
 The GSFE curve on the {111} plane in an FCC lattice or on the basal plane in an HCP lattice at 0 K can be calculated following [a previous project](https://github.com/shuozhixu/Modelling_2024).
 
-20 slip planes are considered in each structure.
-
-### LSR
-
-LSR of an edge dislocation or of a screw dislocation at 0 K can be calculated following [a previous project](https://github.com/shuozhixu/HEAM_2025).
-
-20 LSR are calculated for each dislocation type in each structure.
+10 slip planes are considered in each structure.
 
 ## Materials
 
 ### CoNiRu
 
-It is a bi-phase material according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003). One phase has an FCC lattice while another an HCP lattice. For the FCC phase, we can compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
+It is a bi-phase material according to [this paper](https://doi.org/10.1016/j.actamat.2020.05.003). One phase has an FCC lattice while another an HCP lattice. Hence, we will consider here both FCC CoNiRu and HCP CoNiRu. For the FCC phase, we can compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
 
 ### Co<sub>2</sub>Ni<sub>2</sub>Ru
 
@@ -57,3 +45,9 @@ No DFT or experimental data exist for comparison, to our best knowledge.
 ### Ni
 
 It has an FCC lattice. Compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1063/1.5115282).
+
+## Reference
+
+If you use any files from this GitHub repository, please cite
+
+- Subah Mubassira, Wu-Rong Jian, Shuozhi Xu, [Effects of chemical short‑range order and temperature on basic structure parameters and stacking fault energies in multi‑principal element alloys](https://doi.org/10.3390/modelling5010019), Modelling 5 (2024) 352--366
