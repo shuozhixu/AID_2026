@@ -28,19 +28,23 @@ The GSFE curve on the {111} plane in an FCC lattice or on the basal plane in an 
 
 ### CoNiRu
 
-It is a bi-phase material. One phase has an FCC lattice while another an HCP lattice. Hence, we will consider here both FCC CoNiRu and HCP CoNiRu. For the FCC phase, we can compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
+It is a bi-phase material. One phase has an FCC lattice while another an HCP lattice. Hence, we will consider here both FCC CoNiRu and HCP CoNiRu.
+
+For the FCC phase, we can compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
+
+For the HCP phase, our DFT calculations show that, _a_<sub>0</sub> = 2.596 &#8491;, _c_ = 4.126 &#8491;, effective _C_<sub>11</sub> = xx GPa, effective _C_<sub>12</sub> = xx GPa, effective _C_<sub>13</sub> = xx GPa, effective _C_<sub>33</sub> = xx GPa, and effective _C_<sub>44</sub> = xx GPa.
 
 ### Co<sub>2</sub>Ni<sub>2</sub>Ru
 
 It has an FCC lattice. [This paper](https://doi.org/10.1016/j.actamat.2020.05.003) reported an experimental measurement of its lattice parameter, _a_<sub>0</sub> = 3.59 &#8491;.
 
-Unpublished DFT calculations show that, for random Co<sub>2</sub>Ni<sub>2</sub>Ru, _a_<sub>0</sub> = 3.58 &#8491;, effective _C_<sub>11</sub> = 401.078 GPa, effective _C_<sub>12</sub> = 168.944 GPa, effective _C_<sub>44</sub> = 148.554 GPa, and mean ISFE = -43.11 mJ/m<sup>2</sup>. 60 ISFE values can be found in `Co2Ni2Ru-DFT-ISFE.txt` in this GitHub repository.
+Our DFT calculations show that, _a_<sub>0</sub> = 3.58 &#8491;, effective _C_<sub>11</sub> = 401.078 GPa, effective _C_<sub>12</sub> = 168.944 GPa, effective _C_<sub>44</sub> = 148.554 GPa, and mean ISFE = -43.11 mJ/m<sup>2</sup>. 60 ISFE values can be found in `Co2Ni2Ru-DFT-ISFE.txt` in this GitHub repository.
 
 ### CoNiRu<sub>2</sub>
 
 It has an HCP lattice.
 
-No DFT or experimental data exist for comparison, to our best knowledge.
+Our DFT calculations show that, _a_<sub>0</sub> = 2.645 &#8491;, _c_ = 4.159 &#8491;, effective _C_<sub>11</sub> = xx GPa, effective _C_<sub>12</sub> = xx GPa, effective _C_<sub>13</sub> = xx GPa, effective _C_<sub>33</sub> = xx GPa, and effective _C_<sub>44</sub> = xx GPa.
 
 ### Ni
 
