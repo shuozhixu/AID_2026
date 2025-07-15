@@ -32,7 +32,7 @@ It is a bi-phase material. One phase has an FCC lattice while another an HCP lat
 
 For the FCC phase, we can compare results of basic structural parameters and GSFE with [DFT](http://dx.doi.org/10.1088/1361-651X/ab3b62).
 
-For the HCP phase, our DFT calculations show that, _a_<sub>0</sub> = 2.596 &#8491;, _c_ = 4.126 &#8491;, effective _C_<sub>11</sub> = xx GPa, effective _C_<sub>12</sub> = xx GPa, effective _C_<sub>13</sub> = xx GPa, effective _C_<sub>33</sub> = xx GPa, and effective _C_<sub>44</sub> = xx GPa.
+For the HCP phase, our DFT calculations show that, _a_<sub>0</sub> = 2.596 &#8491;, _c_ = 4.126 &#8491;, effective _C_<sub>11</sub> = 377.03 GPa, effective _C_<sub>12</sub> = 188.45 GPa, effective _C_<sub>13</sub> = 137.4 GPa, effective _C_<sub>33</sub> = 424.69 GPa, and effective _C_<sub>44</sub> = 114.31 GPa.
 
 ### Co<sub>2</sub>Ni<sub>2</sub>Ru
 
@@ -44,7 +44,7 @@ Our DFT calculations show that, _a_<sub>0</sub> = 3.58 &#8491;, effective _C_<su
 
 It has an HCP lattice.
 
-Our DFT calculations show that, _a_<sub>0</sub> = 2.645 &#8491;, _c_ = 4.159 &#8491;, effective _C_<sub>11</sub> = xx GPa, effective _C_<sub>12</sub> = xx GPa, effective _C_<sub>13</sub> = xx GPa, effective _C_<sub>33</sub> = xx GPa, and effective _C_<sub>44</sub> = xx GPa.
+Our DFT calculations show that, _a_<sub>0</sub> = 2.645 &#8491;, _c_ = 4.159 &#8491;, effective _C_<sub>11</sub> = 409.68 GPa, effective _C_<sub>12</sub> = 203.82 GPa, effective _C_<sub>13</sub> = 143.67 GPa, effective _C_<sub>33</sub> = 473.58 GPa, and effective _C_<sub>44</sub> = 130.02 GPa.
 
 ### Ni
 
