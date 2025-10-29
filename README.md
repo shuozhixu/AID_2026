@@ -8,7 +8,7 @@ The purpose of this project is to calculate the basic structural parameters (inc
 
 Following [another project](https://github.com/shuozhixu/Modelling_2024), we can build LAMMPS with the EXTRA-COMPUTE package and submit jobs on [OSCER](http://www.ou.edu/oscer.html).
 
-Four universal machine learning-based interatomic potentials will be applied: SevenNet, Orb, MACE, and DeePMD. More information can be found on [Matbench Discovery](https://matbench-discovery.materialsproject.org), [Materials Graph Library](https://github.com/materialsvirtuallab/matgl), and [DeePMD-kit](https://github.com/deepmodeling/deepmd-kit).
+Three foundation potentials will be applied: SevenNet, Orb, and DPA. More information of these three potentials can be found on  [SevenNet](https://github.com/MDIL-SNU/SevenNet), [Orbital Materials](https://github.com/orbital-materials/orb-models), and [DeePMD-kit](https://docs.deepmodeling.com/projects/deepmd/en/v3.0.3/model/dpa2.html). More information of general foundation potentials can be found on [Matbench Discovery](https://matbench-discovery.materialsproject.org) and [Materials Graph Library](https://github.com/materialsvirtuallab/matgl).
 
 ## Calculations
 
