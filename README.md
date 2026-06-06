@@ -54,4 +54,4 @@ It has an FCC lattice. Compare results of basic structural parameters and GSFE w
 
 If you use any files from this GitHub repository, please cite
 
-- Subah Mubassira, Wu-Rong Jian, Shuozhi Xu, [Effects of chemical short‑range order and temperature on basic structure parameters and stacking fault energies in multi‑principal element alloys](https://doi.org/10.3390/modelling5010019), Modelling 5 (2024) 352--366
+- Subah Mubassira, Thu Nguyen, Anvesh Nathani, Shoutian Sun, Ming Hu, Yanqing Su, Bin Wang, Iman Ghamarian, Shuozhi Xu, [Evaluating three foundation potentials for predicting selected properties of the Co-Ni-Ru alloy system](https://doi.org/10.1002/aidi.202500215), Adv. Intell. Discovery (in press)
