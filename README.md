@@ -54,4 +54,4 @@ It has an FCC lattice. Compare results of basic structural parameters and GSFE w
 
 If you use any files from this GitHub repository, please cite
 
-- Subah Mubassira, Thu Nguyen, Anvesh Nathani, Shoutian Sun, Ming Hu, Yanqing Su, Bin Wang, Iman Ghamarian, Shuozhi Xu, [Evaluating three foundation potentials for predicting selected properties of the Co-Ni-Ru alloy system](https://doi.org/10.1002/aidi.202500215), Adv. Intell. Discovery (in press)
+- Subah Mubassira, Thu Nguyen, Anvesh Nathani, Shoutian Sun, Ming Hu, Yanqing Su, Bin Wang, Iman Ghamarian, Shuozhi Xu, [Evaluating three foundation potentials for predicting selected properties of the Co-Ni-Ru alloy system](https://doi.org/10.1002/aidi.202500215), Adv. Intell. Discovery 2 (2026) e202500215
